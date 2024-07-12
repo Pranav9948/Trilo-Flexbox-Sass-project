@@ -1,0 +1,26 @@
+.trilo-project-container {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--Primary-dark-red),
+    var(--Primary-medium-red)
+  );
+
+  padding: 8rem 3rem;
+
+  @media only screen and (max-width: 75em) {
+    padding: 0;
+  }
+}
+
+// main-section
+
+.main-section {
+  display: flex;
+  height: 130vh;
+
+  @media only screen and (max-width: 1100px) {
+    flex-direction: column;
+  }
+
+  
+}

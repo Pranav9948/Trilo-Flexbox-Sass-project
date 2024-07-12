@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <!-- trilo-project container -->
+
+    <section class="trilo-project-container">
+      <div class="page-container">
+        <!-- header starts -->
+
+        <header class="header">
+          <!-- logo -->
+          <div class="logo">
+            <img src="./img/logo.png" alt="logo" class="logo__trilo" />
+          </div>
+
+          <!-- search -->
+          <div class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search hotels"
+            />
+
+            <i class="fa-solid fa-magnifying-glass search__input__icon"></i>
+          </div>
+
+          <!-- icons -->
+
+          <div class="icons-section">
+            <div class="icons-section__container icons-section__container__1">
+              <i
+                class="fa-solid fa-bookmark icons-section__container__icon"
+              ></i>
+              <div class="icons-section__container__notification">7</div>
+            </div>
+
+            <div class="icons-section__container icons-section__container__2">
+              <i
+                class="fa-solid fa-comments icons-section__container__icon"
+              ></i>
+              <div class="icons-section__container__notification">11</div>
+            </div>
+          </div>
+
+          <!-- user -->
+
+          <div class="user">
+            <div class="user__pic">
+              <img
+                class="user__pic__photo"
+                src="https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?q=80&w=1443&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="pranav"
+              />
+            </div>
+
+            <div class="user__name">pranav</div>
+          </div>
+        </header>
+
+        <!-- header ends -->
+
+        <!-- parent -->
+
+        <div class="main-section">
+          <!-- sidebar starts -->
+
+          <aside class="sidebar">
+            <div class="sidebar__menu">
+              <ul>
+                <div class="mob-side-view">
+                  <div class="menu-option-parent">
+                    <li
+                      class="sidebar__menu__option sidebar__menu__option_active"
+                    >
+                      <div class="sidebar__menu__option__icon">
+                        <i
+                          class="fa-solid fa-house sidebar__menu__option__icon__icon"
+                        ></i>
+                      </div>
+                      <div class="sidebar__menu__option__value">home</div>
+                    </li>
+                  </div>
+
+                  <div class="menu-option-parent">
+                    <li class="sidebar__menu__option">
+                      <div class="sidebar__menu__option__icon">
+                        <i
+                          class="fa-solid fa-jet-fighter sidebar__menu__option__icon__icon"
+                        ></i>
+                      </div>
+                      <div class="sidebar__menu__option__value">flight</div>
+                    </li>
+                  </div>
+
+                  <div class="menu-option-parent">
+                    <li class="sidebar__menu__option">
+                      <div class="sidebar__menu__option__icon">
+                        <i
+                          class="fa-solid fa-car-on sidebar__menu__option__icon__icon"
+                        ></i>
+                      </div>
+                      <div class="sidebar__menu__option__value">car rental</div>
+                    </li>
+                  </div>
+
+                  <div class="menu-option-parent">
+                    <li class="sidebar__menu__option">
+                      <div class="sidebar__menu__option__icon">
+                        <i
+                          class="fa-solid fa-suitcase-rolling sidebar__menu__option__icon__icon"
+                        ></i>
+                      </div>
+                      <div class="sidebar__menu__option__value">tours</div>
+                    </li>
+                  </div>
+
+                  <div class="copy-right">
+                    &copy; 2024 by trilio. All rights reserved.
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </aside>
+
+          <!-- sidebar ends -->
+
+          <!-- content starts -->
+
+          <main class="main-bar">
+            <div class="image-gallery-section">
+              <div class="image-gallery-section__images">
+                <figure>
+                  <img src="./img/hotel-1.jpg" alt="hotel-1" />
+
+                  <figcaption class="image-gallery-section__places">
+                    Lisbon
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="image-gallery-section__images">
+                <figure>
+                  <img src="./img/hotel-2.jpg" alt="hotel-2" />
+
+                  <figcaption class="image-gallery-section__places">
+                    Porto
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="image-gallery-section__images">
+                <figure>
+                  <img src="./img/hotel-3.jpg" alt="hotel-3" />
+
+                  <figcaption class="image-gallery-section__places">
+                    Algarve
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="hotel-main-details">
+              <div class="hotel-main-details__first-section">
+                <h2 class="hotel-name">HOTEL LAS PALMAS</h2>
+
+                <div class="rating-section">
+                  <i class="fa-solid fa-star rating-section__icon"></i>
+                  <i class="fa-solid fa-star rating-section__icon"></i>
+                  <i class="fa-solid fa-star rating-section__icon"></i>
+                  <i class="fa-solid fa-star rating-section__icon"></i>
+                  <i class="fa-solid fa-star rating-section__icon"></i>
+                </div>
+              </div>
+
+              <div class="hotel-main-details__second-section">
+                <div class="location">
+                  <div class="location__icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+
+                  <div class="location__place">Albufeira, Portugal</div>
+                </div>
+
+                <div class="review-section">
+                  <h3>8.6</h3>
+                  <h6>429 votes</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel-features--testionial-section">
+              <div class="hotel-features">
+                <p class="hotel-features__details">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi nisi dignissimos debitis ratione sapiente saepe.
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate.
+                </p>
+
+                <p class="hotel-features__details">
+                  Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                  architecto voluptate delectus, inventore iure aliquid aliquam.
+                </p>
+
+                <div class="hotel-features__facilities_list">
+                  <!-- 1 -->
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Close to the beach
+                    </div>
+                  </div>
+
+                  <!-- 2 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Breakfast included
+                    </div>
+                  </div>
+
+                  <!-- 3 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Free airport shuttle
+                    </div>
+                  </div>
+
+                  <!-- 4 -->
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Free wifi in all rooms
+                    </div>
+                  </div>
+                  <!-- 5 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Air conditioning and heating
+                    </div>
+                  </div>
+
+                  <!-- 6 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Pets allowed
+                    </div>
+                  </div>
+
+                  <!-- 7 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      We speak all languages
+                    </div>
+                  </div>
+
+                  <!-- 8 -->
+
+                  <div class="hotel-features__facilities_list__features">
+                    <div
+                      class="hotel-features__facilities_list__features__icon"
+                    >
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <div
+                      class="hotel-features__facilities_list__features__facilities"
+                    >
+                      Perfect for families
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hotel-features__user-photos-section">
+                  <p>Lucy and 3 other friends recommend this hotel.</p>
+
+                  <div class="user-photos">
+                    <img src="./img/user-1.jpg" alt="user-1" />
+                    <img src="./img/user-2.jpg" alt="user-2" />
+                    <img src="./img/user-3.jpg" alt="user-3" />
+                    <img src="./img/user-4.jpg" alt="user-4" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-section">
+
+              <!-- 1 -->
+
+              <div class="testimonials-card">
+
+                <p class="testimonials-card__details">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                </p>
+
+                <div class="testimonials-card__footer">
+
+                  <div class="testimonials-card__footer__user_details">
+
+                    <div class="user-image">
+                      <img src="./img/user-5.jpg" alt="user-5">
+                    </div>
+
+                    <div class="user__user-details">
+
+                      <h5>NICK SMITH</h5>
+                      <p>Feb 23rd, 2017</p>
+
+                    </div>
+
+                  </div>
+
+
+                  
+                  <div class="testimonials-card__footer__rating">
+                    7.8
+                  </div>
+
+
+
+                </div>
+
+
+                <div class="clipboard-icon">
+                  <i class="fa-solid fa-quote-left" class="clipboard-icon__quote"></i>
+                </div>
+
+
+              </div>
+
+               <!-- 2 -->
+
+
+                <div class="testimonials-card">
+
+                <p class="testimonials-card__details">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                </p>
+
+                <div class="testimonials-card__footer">
+
+                  <div class="testimonials-card__footer__user_details">
+
+                    <div class="user-image">
+                      <img src="./img/user-5.jpg" alt="user-5">
+                    </div>
+
+                    <div class="user__user-details">
+
+                      <h5>NICK SMITH</h5>
+                      <p>Feb 23rd, 2017</p>
+
+                    </div>
+
+                  </div>
+
+
+                  
+                  <div class="testimonials-card__footer__rating">
+                    7.8
+                  </div>
+
+
+
+                </div>
+
+
+                <div class="clipboard-icon">
+                  <i class="fa-solid fa-quote-left" class="clipboard-icon__quote"></i>
+                </div>
+
+
+              </div>
+
+              
+
+              <!-- button-left-section -->
+
+              <div class="btn btn-show btn-left-section">
+                 Show all  <div class="arrow-left">&rarr;</div>
+              </div> 
+
+
+
+
+
+
+              </div>
+            </div>
+
+
+   <div class="book-now-btn">
+
+                <a href="#" class="btn-book-now btn"> book now</a>
+
+              </div>
+
+          </main>
+
+          <!-- content ends -->
+        </div>
+
+        <!-- parent -->
+      </div>
+    </section>
+  </body>
+</html>

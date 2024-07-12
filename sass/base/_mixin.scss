@@ -1,0 +1,7 @@
+
+@mixin grid-box($gridType,$gap){
+
+    display: grid;
+    grid-template-columns: $gridType;
+    gap: $gap;
+}
